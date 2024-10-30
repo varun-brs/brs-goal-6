@@ -1,0 +1,155 @@
+.intro-section {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.intro-title {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.intro-sub-title {
+  font-family: Roboto;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #eabb44;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.skill-list {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.skill-container ul li {
+  margin-bottom: 8px;
+}
+
+/* ------------ latest work -------- */
+
+.latestwork-container {
+  background-color: #f6e5dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.latestwork-sub-section {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+}
+
+.section-title {
+  font-family: Poppins;
+  text-decoration: underline;
+  text-decoration-color: #eabb44;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  text-align: center;
+}
+
+.latestwork-content {
+  width: 50%;
+}
+
+.latestwork-content p {
+  font-family: Poppins;
+  font-size: 13px;
+}
+
+.latestwork-content span {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.latestwork-content h4 {
+  font-family: Poppins;
+}
+
+.latestwork-content button {
+  font-family: Poppins;
+  width: 120px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.latestwork-img {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.latestwork-container hr {
+  margin-top: 35px;
+  width: 90%;
+}
+
+/* ------- experience ----------- */
+
+.experience-container {
+  background-color: #f3f4f9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-title {
+  font-family: Poppins;
+  text-decoration: underline;
+  text-decoration-color: #eabb44;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  text-align: center;
+}
+
+.experience-container p {
+  font-family: Poppins;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.description {
+  font-family: Poppins;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.experience-container span {
+  font-weight: bold;
+}
+
+/* -------- education ------------ */
+
+.education-container {
+  background-color: #e0f1fd;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 55px;
+}
+
+.education-container h4 {
+  font-family: Poppins;
+}
+
+.education-container p {
+  font-family: Poppins;
+  font-size: 13px;
+}
+
+.download-button {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 45px;
+  width: 180px;
+  height: 40px;
+}
