@@ -19,6 +19,7 @@
 
 .skill-container {
   display: flex;
+  margin-left: 0px;
 }
 
 .skill-list {
@@ -128,17 +129,39 @@
   font-weight: bold;
 }
 
+.case-study-btn {
+  font-family: Poppins;
+  font-size: 12px;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+.case-study-btn:hover {
+  background-color: black;
+  color: white;
+}
+
 /* -------- education ------------ */
 
 .education-container {
   background-color: #e0f1fd;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 55px;
+}
+
+.edu-items-container {
+  display: flex;
+  justify-content: center;
 }
 
 .education-container h4 {
   font-family: Poppins;
+}
+
+.edu-items-1 {
+  margin-right: 100px;
+  border-right: 1px solid;
+  padding-right: 100px;
 }
 
 .education-container p {
