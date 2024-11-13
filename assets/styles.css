@@ -1,11 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .intro-section {
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .intro-title {
   font-family: Roboto;
   font-weight: 500;
+  line-height: 28px;
 }
 
 .intro-sub-title {
@@ -15,21 +22,28 @@
   text-decoration-color: #eabb44;
   text-decoration-thickness: 3px;
   text-underline-offset: 7px;
+  margin-top: 20px;
 }
 
 .skill-container {
   display: flex;
-  margin-left: 0px;
+  margin-bottom: 15px;
 }
 
 .skill-list {
   list-style-type: none;
   font-family: Roboto;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .skill-container ul li {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
+  margin-top: 15px;
+}
+
+.skill-list-2 {
+  margin-left: 40px;
 }
 
 /* ------------ latest work -------- */
@@ -75,6 +89,8 @@
 
 .latestwork-content h4 {
   font-family: Poppins;
+  margin-top: 10px;
+  margin-bottom: 6px;
 }
 
 .latestwork-content button {
@@ -83,17 +99,22 @@
   height: 45px;
   border-radius: 5px;
   background-color: transparent;
+  margin-top: 10px;
 }
 
 .latestwork-img {
   width: 30%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
 }
 
 .latestwork-container hr {
   margin-top: 35px;
   width: 90%;
+}
+
+.latestwork-content p:nth-of-type(3) {
+  margin-top: 10px;
 }
 
 /* ------- experience ----------- */
@@ -117,6 +138,8 @@
   font-family: Poppins;
   margin-left: 50px;
   text-align: center;
+  margin-top: 25px;
+  margin-bottom: 18px;
 }
 
 .description {
@@ -152,6 +175,7 @@
 .edu-items-container {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .education-container h4 {
